@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p001",
+    "name": "Pocket LED Lamp",
+    "price": 450,
+    "currency": "NPR",
+    "image": "images/led-lamp.jpg",
+    "description": "Compact USB rechargeable LED lamp. Great for study and travel.",
+    "stock": 20
+  },
+  {
+    "id": "p002",
+    "name": "Anime Phone Stand",
+    "price": 350,
+    "currency": "NPR",
+    "image": "images/phone-stand.jpg",
+    "description": "Cute anime style phone stand. Strong grip, foldable.",
+    "stock": 50
+  },
+  {
+    "id": "p003",
+    "name": "Digital Notebook (PDF)",
+    "price": 199,
+    "currency": "NPR",
+    "image": "images/notebook.jpg",
+    "description": "Printable study planner PDF (A4). Instant download — digital product.",
+    "stock": 9999
+  }
+]
