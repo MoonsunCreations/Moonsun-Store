@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product - Moonsun Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Moonsun Store</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+      <button id="cartBtn">Cart (<span id="cartCount">0</span>)</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div id="productDetail"></div>
+  </main>
+
+  <div id="cartModal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close" id="closeCart">✕</button>
+      <h3>Your Cart</h3>
+      <div id="cartItems"></div>
+      <div class="cart-footer">
+        <div>Total: Rs <span id="cartTotal">0</span></div>
+        <div class="checkout-buttons">
+          <button id="checkoutWhatsapp" class="btn">Order via WhatsApp</button>
+          <a id="paypalLink" class="btn" target="_blank">Pay with PayPal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Moonsun Store</p>
+  </footer>
+
+  <script src="products.json" defer></script>
+  <script src="store.js" defer></script>
+</body>
+</html>
